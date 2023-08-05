@@ -1,0 +1,18 @@
+.second-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}

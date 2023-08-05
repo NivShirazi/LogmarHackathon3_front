@@ -1,5 +1,6 @@
 import { PathRouteProps } from "react-router-dom";
 import HomePage from "../pages/home/homePage";
+import SecondPage from "../pages/second/secondPage";
 
 export interface PathRoutePropsProtected extends PathRouteProps {
   protectedAdmin?: boolean;
@@ -8,7 +9,7 @@ export interface PathRoutePropsProtected extends PathRouteProps {
 
 const routes: PathRoutePropsProtected[] = [
   { path: "/", element: <HomePage /> },
-  { path: "second", element: <h1> second page </h1> },
+  { path: "second", element: <SecondPage /> },
 ];
 
 export default routes;
