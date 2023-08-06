@@ -1,0 +1,39 @@
+.file-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.file-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.file-label {
+  background-color: #6c43d5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.file-label:hover {
+  background-color: #6c43d5;
+}
+
+.file-label-text {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.file-input:focus + .file-label .file-label-text {
+  transform: translateY(-2px);
+}
+
+.file-input:not([value=""]) + .file-label .file-label-text {
+  transform: translateY(-2px);
+  color: #05010d;
+}
