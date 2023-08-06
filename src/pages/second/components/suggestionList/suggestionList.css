@@ -1,0 +1,18 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+li:before {
+  content: "•";
+  color: #4CAF50;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
