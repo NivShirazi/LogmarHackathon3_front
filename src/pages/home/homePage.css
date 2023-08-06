@@ -5,6 +5,8 @@
   justify-content: center;
   height: 100vh;
   background-color: #f2f2f2;
+  background: linear-gradient(to bottom, #4CAF50, #e0d6d6);
+  font-family: 'Heebo', sans-serif;
 }
 
 h1 {
@@ -15,4 +17,45 @@ h1 {
 p {
   font-size: 1.5rem;
   text-align: center;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #4CAF50, #e0d6d6);
+  font-family: 'Heebo', sans-serif;
+}
+
+.center-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	height: 50vh;
+}
+
+body {
+	background-color: #202628;
+}
+.loader-circle-15 {
+	height: 70px;
+	width: 70px;
+	border-top: 10px #008744 solid;
+	border-right: 10px #0057e7 solid;
+	border-bottom: 10px #d62d20 solid;
+	border-left: 10px #ffa700 solid;
+	border-radius: 50%;
+	animation: rotation 1s infinite linear;
+	display: inline-block;
+}
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
