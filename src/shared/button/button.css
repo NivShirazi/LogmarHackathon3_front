@@ -1,7 +1,7 @@
 .button {
-  background-color: #538fab;
+  background-color: #6c43d5;
   border: none;
-  color: white;
+  color: #05010d;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -9,4 +9,5 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 13rem;
 }

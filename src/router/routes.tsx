@@ -9,7 +9,7 @@ export interface PathRoutePropsProtected extends PathRouteProps {
 
 const routes: PathRoutePropsProtected[] = [
   { path: "/", element: <HomePage /> },
-  { path: "data", element: <SecondPage /> },
+  { path: "results", element: <SecondPage /> },
 ];
 
 export default routes;

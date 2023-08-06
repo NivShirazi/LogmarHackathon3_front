@@ -1,17 +1,25 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react/prop-types */
 import { SuggestionList } from './components/suggestionList/suggestionList';
 import './imageDataPage.css';
-import desk from '../../assets/WhatsApp Image 2023-08-06 at 12.40.31 (1).jpeg';
+import { useLocation } from 'react-router';
 
 
 
 const SecondPage = () => {
+
+  const location = useLocation();
+
+  const file: File = location.state.file;
+  console.log(file);
+
+
   return (
     <div className="second-page">
       <h2>Thanks for uploading!</h2>
       <p>Here is how you can improve your workspace:</p>
       <div className='img-container'>
-        <img className='image' src={desk} alt="desk" />
+        <img className='image' src={URL.createObjectURL(file)} alt="desk" />
       </div>
       <SuggestionList suggestions={['Add a plant', 'Add a plant', 'Add a plant']} />
     </div>
