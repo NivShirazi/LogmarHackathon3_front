@@ -1,4 +1,4 @@
-import './secondPage.css';
+import './imageDataPage.css';
 
 const SecondPage = () => {
   return (
