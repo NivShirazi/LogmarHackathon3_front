@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react/prop-types */
-import { SuggestionList } from './components/suggestionList/suggestionList';
 import './imageDataPage.css';
+import { SuggestionList } from './components/suggestionList/suggestionList';
 import { useLocation } from 'react-router';
 
 
@@ -11,8 +11,6 @@ const SecondPage = () => {
   const location = useLocation();
 
   const file: File = location.state.file;
-  console.log(file);
-
 
   return (
     <div className="second-page">
