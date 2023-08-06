@@ -4,9 +4,11 @@ import './homePage.css';
 const HomePage = () => {
   return (
     <div className="home-page">
-      <h1>Welcome to my website!</h1>
-      <p>Thanks for visiting.</p>
-      <Button onClick={() => { }} text='fdfd' />
+      <h1>הענק הירוק</h1>
+      <p>האפליקציה שהופכת את מתחם העבודה שלכם לירוק וידידותי לסביבה</p>
+      <Button onClick={() => { }} text='העלה תמונה' />
+      <Button onClick={() => { }} text='צלם תמונה' />
+      <Button onClick={() => { }} text='היסטוריית תמונות' />
     </div>
   );
 };

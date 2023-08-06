@@ -5,6 +5,8 @@
   justify-content: center;
   height: 100vh;
   background-color: #f2f2f2;
+  background: linear-gradient(to bottom, #4CAF50, #e0d6d6);
+  font-family: 'Heebo', sans-serif;
 }
 
 h1 {
