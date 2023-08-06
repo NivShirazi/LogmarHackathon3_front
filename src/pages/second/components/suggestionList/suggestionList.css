@@ -10,7 +10,7 @@ li {
 }
 
 li:before {
-  content: "•";
+  content: "♻";
   color: #4CAF50;
   display: inline-block;
   width: 1em;

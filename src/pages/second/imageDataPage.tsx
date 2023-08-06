@@ -15,11 +15,11 @@ const SecondPage = () => {
   return (
     <div className="second-page">
       <h2>Thanks for uploading!</h2>
-      <p>Here is how you can improve your workspace:</p>
       <div className='img-container'>
         <img className='image' src={URL.createObjectURL(file)} alt="desk" />
       </div>
-      <SuggestionList suggestions={['Add a plant', 'Add a plant', 'Add a plant']} />
+      <p>Here is how you can improve your workspace:</p>
+      <SuggestionList suggestions={['Change plastic bottle to reusable one', 'Add recycle bin', 'Add Plants']} />
     </div>
   );
 };
